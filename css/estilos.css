@@ -1,0 +1,136 @@
+body{
+    height: 98.3vb;
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.532) 50%, rgba(0, 0, 255, 0.532) 50%),url('https://www.incae.edu/sites/default/files/styles/firehose-main-desktop/public/felicid.jpg?itok=Oc8N-W_t');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.499);
+    position:relative;
+    z-index: 0;
+}
+.caja{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    position: relative;
+   }
+.formulario{
+    width: 36rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:12px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 0;
+   }
+.inputs{
+    width: 90%!important;
+    height: auto;
+    border: 1px solid yellowgreen;
+    color:yellow;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(77, 84, 1, 0.518);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    z-index: 0;
+   }
+.btn-envíar{
+    width: 38%;
+    height: auto;
+    border: 1px solid yellowgreen;
+    color:yellow;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.518);
+    z-index: 0;
+   }
+   .margenes{
+    margin-top: 0.5%;
+    
+   }
+   .aliCajaResultados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   }
+.cajaContieneResultados{
+    display: flex;
+    flex-direction: row;
+    margin:2.5%;
+    width: 55vh!important;
+    height: 2rem;
+    background-color: rgba(255, 255, 255, 0.518);
+    padding:20px;
+    z-index: 0;
+   }
+  .imgProgramaneta{
+    position: absolute;
+    z-index: 5;
+    width: 14%;
+    height: auto;
+    top: 11.7vb; /* Ajusta la distancia desde la parte superior */
+    left: 44vw; /* Ajusta la distancia desde la izquierda */
+    
+    /*border: 1px solid yellow;*/
+    
+  } 
+  .ok20{
+    font-size:20px;
+  }
+  .ok21{
+    font-size:21px;
+  }
+  .ok22{
+    font-size:22px;
+  }
+  .ok24{
+    font-size:24px;
+  }
+  .ok26{
+    font-size:26px;
+  }
+  .ok30{
+    font-size:30px;
+  }
+  .text-white{
+    color: white;
+  }
+  .text-red{
+    color:brown;
+  }
+  .text-blue{
+    color:darkblue;
+  }
+  .text-green{
+    color: darkgreen;
+  }
+  .text-orange{
+    color:darkorange;
+  }
+  .izquierda{
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .centro{
+    justify-content: center;
+    align-items: center;
+  }
+  .derecha{
+    justify-content: flex-end;
+    align-items: center;
+  }
