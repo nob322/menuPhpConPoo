@@ -45,7 +45,7 @@ if(isset($_POST['titulo']) and isset($_POST['tamanio']) and isset($_POST['color'
  }else{
     echo "<p class='text-white'> Error, ningún campo no puede estar vacío </p>";
  }  
- ?>
+ 
     
     
     

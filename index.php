@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica de Programación orientda a objetos en php!</title>
+    <title>Práctica de Programación orientda a objetos en Php 8!</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -36,12 +36,8 @@
         <input type="submit" value="Imprimir en pantalla" class="btn-envíar">
         <
         <div class="margenes aliCajaResultados" id="resultadoActividad"></div>
-        </form>
-      <!--ya casi lo tengo pero me falta validar todos los campos vacios y no sé si algo más -->
-      
-      
+        </form>  
     </div>
-
 <script src="js/app.js"></script>    
 </body>
 </html>
